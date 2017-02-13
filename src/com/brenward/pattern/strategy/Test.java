@@ -14,7 +14,7 @@ public class Test {
 		myCar.turnOnEngine();
 		myBike.turnOnEngine();
 		
-		// Turn my car into an amphibious car
+		// Remove my car's engine
 		myCar.setEngineBehaviour(new NoEngine());
 		myCar.turnOnEngine();
 	}
