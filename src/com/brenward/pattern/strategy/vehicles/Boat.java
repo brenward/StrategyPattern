@@ -1,11 +1,11 @@
 package com.brenward.pattern.strategy.vehicles;
 
-import com.brenward.pattern.strategy.behaviours.MovementBehaviour;
+import com.brenward.pattern.strategy.behaviours.EngineBehaviour;
 
 public class Boat extends Vehicle{
 	
-	public Boat(MovementBehaviour movementBehavior){
-		this.movementBehaviour = movementBehavior;
+	public Boat(EngineBehaviour engineBehavior){
+		this.engineBehaviour = engineBehavior;
 	}
 	
 	@Override

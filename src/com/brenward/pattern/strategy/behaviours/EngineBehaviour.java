@@ -1,5 +1,5 @@
 package com.brenward.pattern.strategy.behaviours;
 
-public interface MovementBehaviour {
-	void move();
+public interface EngineBehaviour {
+	void turnOn();
 }
