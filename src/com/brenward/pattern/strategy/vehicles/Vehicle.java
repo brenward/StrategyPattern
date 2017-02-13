@@ -11,7 +11,7 @@ public abstract class Vehicle {
 	public abstract void park();
 	
 	// Vehicles can move in different ways but some are similar
-	public void moveVehicle(){
+	public void turnOnEngine(){
 		engineBehaviour.turnOn();
 	}
 	

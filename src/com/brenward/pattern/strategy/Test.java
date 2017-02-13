@@ -11,11 +11,11 @@ public class Test {
 		Vehicle myCar = new Car(new DieselEngine());
 		Vehicle myBike = new Bike(new DieselEngine());
 		
-		myCar.moveVehicle();
-		myBike.moveVehicle();
+		myCar.turnOnEngine();
+		myBike.turnOnEngine();
 		
 		// Turn my car into an amphibious car
 		myCar.setEngineBehaviour(new NoEngine());
-		myCar.moveVehicle();
+		myCar.turnOnEngine();
 	}
 }
