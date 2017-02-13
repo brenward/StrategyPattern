@@ -10,7 +10,7 @@ public abstract class Vehicle {
 	// Vehicle behaviour common to all but with unique implementation
 	public abstract void park();
 	
-	// Vehicles can move in different ways but some are similar
+	// Vehicles can have engines but may not
 	public void turnOnEngine(){
 		engineBehaviour.turnOn();
 	}
